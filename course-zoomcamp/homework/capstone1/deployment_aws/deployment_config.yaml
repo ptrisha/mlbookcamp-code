@@ -1,0 +1,9 @@
+api_version: v1
+name: student_classifier_mlzoomcamp
+operator:
+  name: aws-lambda
+template: terraform
+spec:
+  region: ap-southeast-1
+  timeout: 10
+  memory_size: 512

@@ -1,0 +1,12 @@
+service: "predict_service.py:svc"
+labels:
+    owner: pl
+    project: zoomcamp-capstone1
+include:
+- "*.py"
+python:
+    packages:
+    - xgboost
+    - scikit-learn
+    - pydantic
+

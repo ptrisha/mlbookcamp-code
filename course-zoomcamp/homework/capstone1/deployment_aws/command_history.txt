@@ -1,0 +1,6 @@
+
+> bentoctl init
+> docker images
+> bentoctl build -b student_pass_classifier:tleednubz62k7def -f deployment_config.yaml 
+> terraform init
+> terraform apply -var-file=bentoctl.tfvars -auto-approve
